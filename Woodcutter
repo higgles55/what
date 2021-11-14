@@ -1,0 +1,885 @@
+var robot = require("robotjs");
+
+function dropLogs() {
+    var inventory_x = 585;
+	var inventory_y = 571;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 585;
+	var inventory_y = 607;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 585;
+	var inventory_y = 645;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 585;
+	var inventory_y = 681;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 585;
+	var inventory_y = 715;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 585;
+	var inventory_y = 750;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+    var inventory_x = 625;
+	var inventory_y = 571;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 625;
+	var inventory_y = 607;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 625;
+	var inventory_y = 645;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 625;
+	var inventory_y = 681;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 625;
+	var inventory_y = 715;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 625;
+	var inventory_y = 750;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+    var inventory_x = 669;
+	var inventory_y = 571;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 669;
+	var inventory_y = 607;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 669;
+	var inventory_y = 645;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 669;
+	var inventory_y = 681;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 669;
+	var inventory_y = 715;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 669;
+	var inventory_y = 750;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+    var inventory_x = 709;
+	var inventory_y = 535;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 709;
+	var inventory_y = 571;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 709;
+	var inventory_y = 607;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 709;
+	var inventory_y = 645;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 709;
+	var inventory_y = 681;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 709;
+	var inventory_y = 715;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 709;
+	var inventory_y = 750;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+    robot.mouseClick();
+    sleep(400);
+
+}
+
+function dropLogs1() {
+	var inventory_x = 711;
+	var inventory_y = 750;
+    var inventory_log_color = "60401e";
+    var inventory_log_color2 = "704c22";
+    var inventory_log_color3 = "372e0b";
+    var inventory_log_color4 = "4e2c03";
+
+    // check to confirm that logs are there
+    var pixel_color = robot.getPixelColor(inventory_x, inventory_y);
+    console.log("Inventory log color is: " + pixel_color);
+
+    // drop logs from the inventory if the color matches the expected log color (yew)
+    if (pixel_color == inventory_log_color) {
+        console.log("found log and dropping logs")
+        dropLogs();}
+
+        if (pixel_color == inventory_log_color2) {
+        console.log("found oak logs and dropping logs")
+        dropLogs();}
+
+        if (pixel_color == inventory_log_color3) {
+        console.log("found willow logs and dropping logs")
+        dropLogs();}
+
+        if (pixel_color == inventory_log_color4) {
+        console.log("found maple logs and dropping logs")
+        dropLogs();}
+            
+
+        else {
+            console.log ("no log found and not dropping anything waiting 4 secs")
+            console.log ("but just checking if I need evade or heal first")
+            checkHealth();
+            console.log ("sleepin from checkhealth in log now")
+            sleep(4000)
+            
+    }
+
+
+}
+
+
+function sleep(ms) {
+    Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, ms);
+}
+
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function findTree() {
+    var x = 0, y = 25, width = 520, height = 650;
+    var img = robot.screen.capture(x, y, width, height);
+
+	var tree_colors = ["8e6e42", "8b6c40", "886a3f", "886a3f", "917043", "80623a", "604d2c", "63512c", "5b4a2a", "574828", "6a5630", "6a4a26", "614423", "674824", "644623", "705028", "654723", "5b4021", "74522a", "5f4222", "583e1f", "715028", "583b1b", "5e3f1d", "714c23", "61411e", "825929", "795326", "7f5728", "865b2a", "503619", "744e24", "2d1e0d", "412c14", "55381b", "332310", "473016", "291c0c", "26190b", "3e2912", "493116", "53371a", "3f2a13", "432c14", "56391a", "1e1409", "0c0803", "211609", "32210f", "2b1d0d", "593b1b", "62431e", "6c4921", "6f4b21", "6f4b21", "25190a", "462f15", "2b2611", "211e0e", "322b14", "1c180b", "3d361a", "4a401e", "373117", "3a3418", "282410", "1e1b0d", "181509", "1c180b", "352f16", "373117", "1e1b0d", "473e1d", "443b1c", "3a3419", "25200f", "3d361a", "120f07", "41391b", "322b14", "2b2612", "322b14", "473e1d", "4f4622", "4f4622", "524923", "282410", "221e0e", "191509", "423108", "16120c", "100d08", "1c160f", 
+    "130f0a", "120e07", "191409", "16120c", "070503", "0a0904", "120e07", "0d0a07", "0e0c05", "090805", "1c160c", "1a140e", "130f0a", "1f1910", "221b13", "090805", "6e4517", "5d3b13", "643f14", "5a3913", "41290d", "674116", "4c2f10", "3e270d", "6a4317", "281908", "2f1e09", "33200b", "2f1e09", "2c1b08", "191004", "140d04"];
+
+	for (var i = 0; i < 1000; i++) {
+		var random_x = getRandomInt(0, width-1);
+		var random_y = getRandomInt(0, height-1);
+		var sample_color = img.colorAt(random_x, random_y);
+
+		if (tree_colors.includes(sample_color)) {
+            var screen_x = random_x + x;
+            var screen_y = random_y + y;
+
+            if (confirmTree(screen_x, screen_y)) {
+                console.log("Found a tree at: " + screen_x + ", " + screen_y + " color " + sample_color);
+                return {x: screen_x, y: screen_y};
+            } else {
+                console.log("Unconfirmed tree at: " + screen_x + ", " + screen_y + " color " + sample_color);
+            }
+
+            
+        }
+    }
+    
+    console.log ("did not find the color in our screenshot");
+    return false;
+    
+}
+
+function rotateCamera() {
+    console.log("Rotating camera");
+    robot.keyToggle('right', 'down');
+    sleep(1000);
+    robot.keyToggle('right', 'up'); 
+}
+
+
+function rotateCamera1() {
+    console.log("Rotating camera");
+    robot.keyToggle('right', 'down');
+    sleep(1000);
+    robot.keyToggle('right', 'up');
+
+    var i = 0;
+    while (i < 8) {
+        
+        var tree = findTree();
+
+        checkHealth();
+
+        if (tree == false) {
+            console.log('Could not find a tree in the rotate function');
+            var tree = findTree();
+            checkHealth();
+            if (tree == false) {
+                rotateCamera();
+                console.log("i'm sleepin here in the rotate function")
+                sleep(1000)
+                i += 1;
+                continue;
+
+             }
+
+
+                
+            
+            
+        } 
+
+        console.log("clickity clickiddy in rotate");
+        robot.moveMouse(tree.x, tree.y);
+        robot.mouseClick();
+        sleep(300);
+        robot.mouseClick();
+        sleep(8000);
+    
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    dropLogs1();
+    
+        
+    }
+    
+        var tree = findTree();
+    
+
+        
+
+        if (tree == false) {
+            console.log('Could not find a 5th tree');
+            var tree = findTree();
+            if (tree == false) {
+                rotateCamera();
+                console.log("i'm sleepin here for the 5th time")
+                sleep(1000)}
+                
+           
+            }           
+        
+
+ 
+    
+}
+
+
+function sleepin() {
+
+    var healthYellowColor = [ "ffff00" ]
+    var healthLowColor = ["ffff00", "ff981f", "ff0000"]
+    var healthFineColor = [ "00ff00", "685a4b"]
+    var healthRedColor = ["ff0000"]  
+    var healthOrangeColor = [ "ff981f"]
+
+    var sample_color67 = robot.getPixelColor(539,93);
+    if (healthFineColor.includes(sample_color67)) {
+    while (true) {
+        var tree = findTree();
+        check4();
+        if (tree == false) {
+            console.log('Could not find a tree in sleepin');
+            var tree = findTree();
+            check4();
+            if (tree == false) {
+                rotateCamera1();
+                rotateCamera1();
+                rotateCamera1();
+                console.log("i'm sleepin here in sleepin")
+                sleep(1000)
+                
+                break;}
+            
+                    
+
+
+                
+            
+            
+        } 
+
+        console.log("clickity clickiddy in sleepin");
+        robot.moveMouse(tree.x, tree.y);
+        robot.mouseClick();
+        sleep(300);
+        robot.mouseClick();
+        sleep(8000);
+    
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    dropLogs1();}
+
+    } else {
+    var sample_color1 = robot.getPixelColor(539, 93);
+    if (healthLowColor.includes(sample_color1))
+    //if health is low, from check 4 it comes here, and doesn't evade
+    {console.log ("healin here");
+    sleep(30000);
+    check42();
+    var sample_color32 = robot.getPixelColor(539, 93);
+    console.log ("color is" + " " + (sample_color32));}
+    else {console.log ("health fine over here")}
+
+    var sample_color2 = robot.getPixelColor(539, 93);
+    if (healthLowColor.includes(sample_color2))
+    { console.log ("healin here2");
+    sleep(30000);
+    check42();
+    var sample_color31 = robot.getPixelColor(539, 93);
+    console.log ("color is" + " " + (sample_color31));}
+    else {console.log ("health fine over here")}
+
+    var sample_color3 = robot.getPixelColor(539, 93);
+    if (healthLowColor.includes(sample_color3))
+    { console.log ("healin here3");
+    sleep(30000);
+    check42();
+    var sample_color30 = robot.getPixelColor(539, 93);
+    console.log ("color is" + " " + (sample_color30));}
+    else {console.log ("health fine over here")}
+
+    var sample_color4 = robot.getPixelColor(539, 93);
+    if (healthLowColor.includes(sample_color4))
+    {console.log ("healin here4");
+    sleep(30000);
+    check42();
+    var sample_color29 = robot.getPixelColor(539, 93);
+    console.log ("color is" + " " + (sample_color29));}
+    else {console.log ("health fine over here")}
+
+    var sample_color5 = robot.getPixelColor(539, 93);
+    if (healthLowColor.includes(sample_color5))
+    { console.log ("healin here5");
+    sleep(30000);
+    check42();
+    var sample_color28 = robot.getPixelColor(539, 93);
+    console.log ("color is" + " " + (sample_color28));}
+    else {console.log ("health fine over here")}
+
+    var sample_color6 = robot.getPixelColor(539, 93);
+    if (healthLowColor.includes(sample_color6))
+    { console.log ("healin here6");
+    sleep(30000);
+    check42();
+    var sample_color27 = robot.getPixelColor(539, 93);
+    console.log ("color is" + " " + (sample_color27));}
+    else {console.log ("health fine over here")}
+
+    var sample_color7 = robot.getPixelColor(539, 93);
+    if (healthLowColor.includes(sample_color7))
+    {console.log ("healin here7");
+    sleep(30000);
+    check42();
+    var sample_color26 = robot.getPixelColor(539, 93);
+    console.log ("color is" + " " + (sample_color26));}
+    else {console.log ("health fine over here")}
+
+    var sample_color8 = robot.getPixelColor(539, 93);
+    if (healthLowColor.includes(sample_color8))
+    { console.log ("healin here8");
+    sleep(30000);
+    check42();
+    var sample_color25 = robot.getPixelColor(539, 93);
+    console.log ("color is" + " " + (sample_color25));}
+    else {console.log ("health fine over here")}
+
+    var sample_color9 = robot.getPixelColor(539, 93);
+    if (healthLowColor.includes(sample_color9))
+    { console.log ("healin here9");
+    sleep(30000);
+    check42();
+    var sample_color24 = robot.getPixelColor(539, 93);
+    console.log ("color is" + " " + (sample_color24));}
+    else {console.log ("health fine over here")}
+
+    var sample_color10 = robot.getPixelColor(539, 93);
+    if (healthLowColor.includes(sample_color10))
+    { console.log ("healin here10");
+    sleep(30000);
+    check42();
+    var sample_color23 = robot.getPixelColor(539, 93);
+    console.log ("color is" + " " + (sample_color23));}
+    else {console.log ("health fine over here")}
+
+    var sample_color11 = robot.getPixelColor(539, 93); 
+    if (healthLowColor.includes(sample_color11))
+    { console.log ("healin here5");
+    sleep(30000);
+    check42();
+    var sample_color22 = robot.getPixelColor(539, 93);
+    console.log ("color is" + " " + (sample_color22));}
+    else {console.log ("health fine over here")}
+
+    var sample_color12 = robot.getPixelColor(539, 93);
+    if (healthLowColor.includes(sample_color12))
+    { console.log ("healin here6");
+    sleep(30000);
+    check42();
+    var sample_color21 = robot.getPixelColor(539, 93);
+    console.log ("color is" + " " + (sample_color21));}
+    else {console.log ("health fine over here")}
+
+    var sample_color13 = robot.getPixelColor(539, 93);
+    if (healthLowColor.includes(sample_color13))
+    {console.log ("healin here7");
+    sleep(30000);
+    check42();
+    var sample_color20 = robot.getPixelColor(539, 93);
+    console.log ("color is" + " " + (sample_color20));}
+    else {console.log ("health fine over here")}
+
+    var sample_color14 = robot.getPixelColor(539, 93);
+    if (healthLowColor.includes(sample_color14))
+    { console.log ("healin here8");
+    sleep(15000);
+    check42();
+    var sample_color19 = robot.getPixelColor(539, 93);
+    console.log ("color is" + " " + (sample_color19));}
+    else {console.log ("health fine over here")} }
+
+}
+    
+
+function check4 () {
+
+    var sample_color99 = robot.getPixelColor(541, 93);
+    var healthLowColor = ["ffff00", "ff981f", "ff0000"]
+    console.log ("color is" + " " + (sample_color99))
+    if (healthLowColor.includes(sample_color99))
+     {console.log ("i think this is returning true and should go sleepin")
+        sleepin1();
+    }
+
+
+}
+
+function sleepin1() {
+
+    var healthLowColor = ["ffff00", "ff981f", "ff0000"]
+	var healthLowColorYellow = [ "ffff00" ]
+    var healthLowColorOrange = [ "ff981f"]
+    var healthLowColorRed = ["ff0000"]   
+    var healthFineColor = [ "00ff00", "685a4b"]
+    var sample_color = robot.getPixelColor(541, 93);
+
+if (healthLowColor.includes(sample_color)) {
+    console.log ("evading")
+    robot.moveMouseSmooth(575,50);
+    sleep(100)
+    robot.mouseClick();
+    robot.moveMouseSmooth(648,53);
+    robot.mouseClick();
+    sleep(100);
+    robot.mouseClick();
+    sleep(6000);
+    robot.moveMouseSmooth(648,53);
+    robot.mouseClick();
+    sleep(100);
+    robot.mouseClick();
+    sleep(24000);
+
+    console.log ("color is" + " " + (sample_color))
+
+    var sample_color77 = robot.getPixelColor(539, 89)
+
+    if (healthLowColorOrange.includes(sample_color77)) {
+        console.log ("evading")
+        robot.moveMouseSmooth(575,50);
+        sleep(100)
+        robot.mouseClick();
+        robot.moveMouseSmooth(648,53);
+        robot.mouseClick();
+        sleep(100);
+        robot.mouseClick();
+        sleep(6000);
+        robot.moveMouseSmooth(648,53);
+        robot.mouseClick();
+        sleep(100);
+        robot.mouseClick();
+        sleep(24000);
+
+    } }
+
+    
+
+    
+
+    var sample_color34 = robot.getPixelColor(539, 89);
+    if (healthLowColorOrange.includes(sample_color34))
+    {console.log ("healin here");
+    sleep(30000);
+    var sample_color35 = robot.getPixelColor(539, 89);
+    console.log ("color is" + " " + (sample_color35));}
+    else {console.log ("health not orange over here")}
+    var sample_color36 = robot.getPixelColor(539, 89);
+    if (healthLowColorOrange.includes(sample_color36))
+    {console.log ("healin here");
+    sleep(30000);
+    var sample_color38 = robot.getPixelColor(539, 89);
+    console.log ("color is" + " " + (sample_color38));}
+    else {console.log ("health fine over here")}
+    var sample_color39 = robot.getPixelColor(539, 89);
+    if (healthLowColorOrange.includes(sample_color39))
+    {console.log ("healin here");
+    sleep(30000);
+    var sample_color40 = robot.getPixelColor(539, 89);
+    console.log ("color is" + " " + (sample_color40));}
+    else {console.log ("health fine over here")}
+
+    sleepin();
+    
+
+
+	    
+}
+
+function check42 () { 
+    
+    var sample_color100 = robot.getPixelColor(539, 89);
+    var healthLowColorOrange = [ "ff981f"]
+
+    console.log ("color is" + " " + (sample_color100))
+    if (healthLowColorOrange.includes(sample_color100))
+     {console.log ("check 42 baby")
+     sleep(30000);
+     var sample_color66 = robot.getPixelColor(539, 89);
+     if (healthLowColorOrange.includes(sample_color66))
+     {console.log ("healin here from 4 or 3");
+     sleep(30000);
+     }}
+
+}
+
+function logOut() {
+
+    robot.moveMouseSmooth(650, 835);
+    sleep(400)
+    robot.mouseClick();
+    robot.moveMouseSmooth(650, 682);
+    sleep(400)
+    robot.mouseClick();
+
+    console.log ("logged out")
+
+}
+
+
+function checkHealth() {
+    /*
+    var x = 537, y = 85, width = 16, height = 20;
+    var img = robot.screen.capture(x, y, width, height);
+*/
+    var healthLowColor = ["ffff00", "ff981f", "ff0000"]
+	var healthLowColorYellow = [ "ffff00" ]
+    var healthLowColorOrange = [ "ff981f"]
+    var healthLowColorRed = ["ff0000"]   
+    var healthFineColor = [ "00ff00", "685a4b"]
+    var sample_color59 = robot.getPixelColor(539, 93);
+
+    check4();
+         
+        console.log ("color is" + " " + "in check health" + " " + (sample_color59))
+
+	    if (healthLowColor.includes(sample_color59)) {
+            console.log ("evading in checkhealth because we found low color")
+            robot.moveMouseSmooth(575,50);
+            sleep(100)
+            robot.mouseClick();
+            robot.moveMouseSmooth(648,53);
+            robot.mouseClick();
+            sleep(100);
+            robot.mouseClick();
+            sleep(6000);
+            robot.moveMouseSmooth(648,53);
+            robot.mouseClick();
+            sleep(100);
+            robot.mouseClick();
+            sleep(24000);
+            
+    
+            console.log ("color is" + " " + (sample_color59))
+        }
+            sleepin();
+            console.log("got past 1");
+
+            
+                    
+    }
+
+
+function confirmTree(screen_x, screen_y) {
+    // first move the mouse to the given coordinates
+    robot.moveMouse(screen_x, screen_y);
+    // wait a moment for the help text to appear
+    sleep(300);
+
+    // now check the color of the action text
+    var check_x = 79;
+    var check_y = 34;
+    var pixel_color = robot.getPixelColor(check_x, check_y);
+
+    // returns true if the pixel color is cyan
+    return pixel_color == "00ffff";
+}
+
+function main() {
+
+	console.log("Starting...");
+    dropLogs1();
+    console.log("checked health")
+    sleep(8000);
+    
+
+    // infinite loop. use ctrl+c in terminal to stop the program
+    while (true) {
+        var tree = findTree();
+        checkHealth();
+        if (tree == false) {
+            console.log('Could not find a tree');
+            var tree = findTree();
+            checkHealth();
+            if (tree == false) {
+                rotateCamera1();
+                rotateCamera1();
+                rotateCamera1();
+                console.log("i'm sleepin here")
+                sleep(1000)
+                
+                break;}
+            
+                    
+
+
+                
+            
+            
+        } 
+
+        console.log("clickity clickiddy");
+        robot.moveMouse(tree.x, tree.y);
+        robot.mouseClick();
+        sleep(300);
+        robot.mouseClick();
+        sleep(8000);
+    
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    dropLogs1();  
+
+}
+	
+}
+
+
+main();
+
+console.log("curious");
+sleep (10000);
+
+console.log("Starting...");
+    checkHealth();
+    console.log("checked health")
+    sleep(8000);
+    
+
+    // infinite loop. use ctrl+c in terminal to stop the program
+    while (true) {
+        var tree = findTree();
+        checkHealth();
+        if (tree == false) {
+            console.log('Could not find a tree');
+            var tree = findTree();
+            checkHealth();
+            if (tree == false) {
+                rotateCamera1();
+                rotateCamera1();
+                rotateCamera1();
+                console.log("i'm sleepin here")
+                sleep(1000)
+
+                /*
+                var counter = rotateCameraCounter();
+                if (counter == false) {break;}
+                if (counter == true)
+                */
+                
+                break;}
+            
+                    
+
+
+                
+            
+            
+        } 
+
+        console.log("clickity clickiddy");
+        robot.moveMouse(tree.x, tree.y);
+        robot.mouseClick();
+        sleep(300);
+        robot.mouseClick();
+        sleep(8000);
+    
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    dropLogs1();  
+
+}
+
+
+logOut();
+	
+//is just counting rotates, not rotates in a row, however it serves its function well, it does eventually log out after i think like 50+ rotates
+//eats up RAM
+//have to input new colours, for (find tree) and (inventory log colour) every run
