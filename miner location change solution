@@ -70,7 +70,7 @@ function checkLocation() {
     var pixel_color = robot.getPixelColor(map_x, map_y);
     console.log("map color is: " + pixel_color);
 
-	// if map color matches the expected log color (yew)
+	// if map color matches the expected color
     if (pixel_color == map_color) {
         console.log("we here boys")}
             
