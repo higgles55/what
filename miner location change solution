@@ -26,3 +26,35 @@ function checkLocation() {
 }
 
 //Ok, so let's say it's succesful and my character logs out, the script will still run, how do I break the script from there?
+
+CONTEXT
+
+function main() {
+
+	console.log("Starting...");
+
+	while (true) {
+	robot.moveMouseSmooth(382, 514)
+	robot.mouseClick()
+	sleep(100)
+	robot.mouseClick()
+	sleep(3000)
+	robot.moveMouseSmooth(310, 442)
+	robot.mouseClick()
+	sleep(100)
+	robot.mouseClick()
+	sleep(3000)
+	robot.moveMouseSmooth(370, 396)
+	robot.mouseClick()
+	sleep(100)
+	robot.mouseClick()
+	sleep(3000)
+
+	dropOres();
+	checkLocation();
+
+
+
+
+}
+
