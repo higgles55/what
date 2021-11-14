@@ -1,230 +1,5 @@
 var robot = require("robotjs");
 
-function dropLogs() {
-    var inventory_x = 585;
-	var inventory_y = 571;
-	// drop logs from the inventory
-	robot.moveMouse(inventory_x, inventory_y);
-	robot.mouseClick('right');
-	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
-    sleep(100);
-	robot.mouseClick();
-	sleep(400);
-    var inventory_x = 585;
-	var inventory_y = 607;
-	// drop logs from the inventory
-	robot.moveMouse(inventory_x, inventory_y);
-	robot.mouseClick('right');
-	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
-    sleep(100);
-	robot.mouseClick();
-	sleep(400);
-    var inventory_x = 585;
-	var inventory_y = 645;
-	// drop logs from the inventory
-	robot.moveMouse(inventory_x, inventory_y);
-	robot.mouseClick('right');
-	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
-    sleep(100);
-	robot.mouseClick();
-	sleep(400);
-    var inventory_x = 585;
-	var inventory_y = 681;
-	// drop logs from the inventory
-	robot.moveMouse(inventory_x, inventory_y);
-	robot.mouseClick('right');
-	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
-    sleep(100);
-	robot.mouseClick();
-	sleep(400);
-    var inventory_x = 585;
-	var inventory_y = 715;
-	// drop logs from the inventory
-	robot.moveMouse(inventory_x, inventory_y);
-	robot.mouseClick('right');
-	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
-    sleep(100);
-	robot.mouseClick();
-	sleep(400);
-    var inventory_x = 585;
-	var inventory_y = 750;
-	// drop logs from the inventory
-	robot.moveMouse(inventory_x, inventory_y);
-	robot.mouseClick('right');
-	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
-    sleep(100);
-	robot.mouseClick();
-    var inventory_x = 625;
-	var inventory_y = 571;
-	// drop logs from the inventory
-	robot.moveMouse(inventory_x, inventory_y);
-	robot.mouseClick('right');
-	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
-    sleep(100);
-	robot.mouseClick();
-	sleep(400);
-    var inventory_x = 625;
-	var inventory_y = 607;
-	// drop logs from the inventory
-	robot.moveMouse(inventory_x, inventory_y);
-	robot.mouseClick('right');
-	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
-    sleep(100);
-	robot.mouseClick();
-	sleep(400);
-    var inventory_x = 625;
-	var inventory_y = 645;
-	// drop logs from the inventory
-	robot.moveMouse(inventory_x, inventory_y);
-	robot.mouseClick('right');
-	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
-    sleep(100);
-	robot.mouseClick();
-	sleep(400);
-    var inventory_x = 625;
-	var inventory_y = 681;
-	// drop logs from the inventory
-	robot.moveMouse(inventory_x, inventory_y);
-	robot.mouseClick('right');
-	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
-    sleep(100);
-	robot.mouseClick();
-	sleep(400);
-    var inventory_x = 625;
-	var inventory_y = 715;
-	// drop logs from the inventory
-	robot.moveMouse(inventory_x, inventory_y);
-	robot.mouseClick('right');
-	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
-    sleep(100);
-	robot.mouseClick();
-	sleep(400);
-    var inventory_x = 625;
-	var inventory_y = 750;
-	// drop logs from the inventory
-	robot.moveMouse(inventory_x, inventory_y);
-	robot.mouseClick('right');
-	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
-    sleep(100);
-	robot.mouseClick();
-    var inventory_x = 669;
-	var inventory_y = 571;
-	// drop logs from the inventory
-	robot.moveMouse(inventory_x, inventory_y);
-	robot.mouseClick('right');
-	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
-    sleep(100);
-	robot.mouseClick();
-	sleep(400);
-    var inventory_x = 669;
-	var inventory_y = 607;
-	// drop logs from the inventory
-	robot.moveMouse(inventory_x, inventory_y);
-	robot.mouseClick('right');
-	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
-    sleep(100);
-	robot.mouseClick();
-	sleep(400);
-    var inventory_x = 669;
-	var inventory_y = 645;
-	// drop logs from the inventory
-	robot.moveMouse(inventory_x, inventory_y);
-	robot.mouseClick('right');
-	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
-    sleep(100);
-	robot.mouseClick();
-	sleep(400);
-    var inventory_x = 669;
-	var inventory_y = 681;
-	// drop logs from the inventory
-	robot.moveMouse(inventory_x, inventory_y);
-	robot.mouseClick('right');
-	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
-    sleep(100);
-	robot.mouseClick();
-	sleep(400);
-    var inventory_x = 669;
-	var inventory_y = 715;
-	// drop logs from the inventory
-	robot.moveMouse(inventory_x, inventory_y);
-	robot.mouseClick('right');
-	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
-    sleep(100);
-	robot.mouseClick();
-	sleep(400);
-    var inventory_x = 669;
-	var inventory_y = 750;
-	// drop logs from the inventory
-	robot.moveMouse(inventory_x, inventory_y);
-	robot.mouseClick('right');
-	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
-    sleep(100);
-	robot.mouseClick();
-    var inventory_x = 709;
-	var inventory_y = 535;
-	// drop logs from the inventory
-	robot.moveMouse(inventory_x, inventory_y);
-	robot.mouseClick('right');
-	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
-    sleep(100);
-	robot.mouseClick();
-	sleep(400);
-    var inventory_x = 709;
-	var inventory_y = 571;
-	// drop logs from the inventory
-	robot.moveMouse(inventory_x, inventory_y);
-	robot.mouseClick('right');
-	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
-    sleep(100);
-	robot.mouseClick();
-	sleep(400);
-    var inventory_x = 709;
-	var inventory_y = 607;
-	// drop logs from the inventory
-	robot.moveMouse(inventory_x, inventory_y);
-	robot.mouseClick('right');
-	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
-    sleep(100);
-	robot.mouseClick();
-	sleep(400);
-    var inventory_x = 709;
-	var inventory_y = 645;
-	// drop logs from the inventory
-	robot.moveMouse(inventory_x, inventory_y);
-	robot.mouseClick('right');
-	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
-    sleep(100);
-	robot.mouseClick();
-	sleep(400);
-    var inventory_x = 709;
-	var inventory_y = 681;
-	// drop logs from the inventory
-	robot.moveMouse(inventory_x, inventory_y);
-	robot.mouseClick('right');
-	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
-    sleep(100);
-	robot.mouseClick();
-	sleep(400);
-    var inventory_x = 709;
-	var inventory_y = 715;
-	// drop logs from the inventory
-	robot.moveMouse(inventory_x, inventory_y);
-	robot.mouseClick('right');
-	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
-    sleep(100);
-	robot.mouseClick();
-	sleep(400);
-    var inventory_x = 709;
-	var inventory_y = 750;
-	// drop logs from the inventory
-	robot.moveMouse(inventory_x, inventory_y);
-	robot.mouseClick('right');
-	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
-    sleep(100);
-    robot.mouseClick();
-    sleep(400);
-
-}
 
 function dropLogs1() {
 	var inventory_x = 711;
@@ -879,6 +654,233 @@ console.log("Starting...");
 
 
 logOut();
+
+function dropLogs() {
+    var inventory_x = 585;
+	var inventory_y = 571;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 585;
+	var inventory_y = 607;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 585;
+	var inventory_y = 645;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 585;
+	var inventory_y = 681;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 585;
+	var inventory_y = 715;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 585;
+	var inventory_y = 750;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+    var inventory_x = 625;
+	var inventory_y = 571;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 625;
+	var inventory_y = 607;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 625;
+	var inventory_y = 645;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 625;
+	var inventory_y = 681;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 625;
+	var inventory_y = 715;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 625;
+	var inventory_y = 750;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+    var inventory_x = 669;
+	var inventory_y = 571;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 669;
+	var inventory_y = 607;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 669;
+	var inventory_y = 645;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 669;
+	var inventory_y = 681;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 669;
+	var inventory_y = 715;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 669;
+	var inventory_y = 750;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+    var inventory_x = 709;
+	var inventory_y = 535;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 709;
+	var inventory_y = 571;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 709;
+	var inventory_y = 607;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 709;
+	var inventory_y = 645;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 709;
+	var inventory_y = 681;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 709;
+	var inventory_y = 715;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 709;
+	var inventory_y = 750;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+    robot.mouseClick();
+    sleep(400);
+
+}
+
 	
 //is just counting rotates, not rotates in a row, however it serves its function well, it does eventually log out after i think like 50+ rotates
 //eats up RAM
