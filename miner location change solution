@@ -1,0 +1,28 @@
+function checkLocation() {
+
+	var map_x = 661;
+	var map_y = 148;
+    var map_color = "4f648d";
+
+    // check to confirm that map is blue 
+    var pixel_color = robot.getPixelColor(map_x, map_y);
+    console.log("map color is: " + pixel_color);
+
+	// if map color matches the expected log color (blue)
+    if (pixel_color == inventory_ore_color) {
+        console.log("we here boys")
+        dropLogs();}
+            
+
+        else {
+            console.log ("we gone")
+			logOut(); 
+
+            
+    }
+
+	
+
+}
+
+//Ok, so let's say it's succesful and my character logs out, the script will still run, how do I break the script from there?
