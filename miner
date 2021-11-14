@@ -1,0 +1,413 @@
+var robot = require("robotjs");
+
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function sleep(ms) {
+    Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, ms);
+}
+
+function dropOres() {
+	var inventory_x = 714;
+	var inventory_y = 758;
+    var inventory_ore_color = "000001";
+
+    // check to confirm that logs are there
+    var pixel_color = robot.getPixelColor(inventory_x, inventory_y);
+    console.log("Inventory ore color is: " + pixel_color);
+
+    // drop logs from the inventory if the color matches the expected log color (yew)
+    if (pixel_color == inventory_ore_color) {
+        console.log("found ore and dropping ores")
+        dropLogs();}
+            
+
+        else {
+            console.log ("no ore found and not dropping anything")
+            
+    }
+
+	
+
+}
+
+function main() {
+
+	console.log("Starting...");
+
+	while (true) {
+	robot.moveMouseSmooth(382, 514)
+	robot.mouseClick()
+	sleep(100)
+	robot.mouseClick()
+	sleep(3000)
+	robot.moveMouseSmooth(310, 442)
+	robot.mouseClick()
+	sleep(100)
+	robot.mouseClick()
+	sleep(3000)
+	robot.moveMouseSmooth(370, 396)
+	robot.mouseClick()
+	sleep(100)
+	robot.mouseClick()
+	sleep(3000)
+
+	dropOres();
+
+	//if dropOres doesn't drop ores 20 times in a row 
+	//it means we are not mining, and script should stop
+
+
+
+
+}
+
+    while (true) {
+        var ore = findOre();
+        if (ore == false) {
+            /*console.log('Could not find an ore'); */
+            var ore = findOre();
+            if (ore == false) {
+                /* console.log("what happened") */
+				continue;
+                }
+            
+                    
+
+
+                
+            
+            
+        } 
+
+        console.log("clickity clickiddy");
+        robot.moveMouse(ore.x, ore.y);
+        robot.mouseClick();
+        sleep(300);
+        robot.mouseClick();
+        sleep(4000);
+    
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    dropOres();}
+
+	
+
+     
+
+} 
+
+//I can get it working, but it tends to eat up RAM
+//Not able to find a way to log it out when it's no longer at rocks
+
+main() 
+
+{
+
+	
+logOut(); 
+
+
+}
+
+function logOut() {
+
+    robot.moveMouseSmooth(650, 835);
+    sleep(400)
+    robot.mouseClick();
+    robot.moveMouseSmooth(650, 682);
+    sleep(400)
+    robot.mouseClick();
+
+    console.log ("logged out")
+
+}
+
+function dropLogs() {
+    var inventory_x = 585;
+	var inventory_y = 571;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 585;
+	var inventory_y = 607;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 585;
+	var inventory_y = 645;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 585;
+	var inventory_y = 681;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 585;
+	var inventory_y = 715;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 585;
+	var inventory_y = 750;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+    var inventory_x = 625;
+	var inventory_y = 571;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 625;
+	var inventory_y = 607;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 625;
+	var inventory_y = 645;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 625;
+	var inventory_y = 681;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 625;
+	var inventory_y = 715;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 625;
+	var inventory_y = 750;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+    var inventory_x = 669;
+	var inventory_y = 571;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 669;
+	var inventory_y = 607;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 669;
+	var inventory_y = 645;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 669;
+	var inventory_y = 681;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 669;
+	var inventory_y = 715;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 669;
+	var inventory_y = 750;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+    var inventory_x = 709;
+	var inventory_y = 535;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 709;
+	var inventory_y = 571;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 709;
+	var inventory_y = 607;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 709;
+	var inventory_y = 645;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 709;
+	var inventory_y = 681;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 709;
+	var inventory_y = 715;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+	robot.mouseClick();
+	sleep(400);
+    var inventory_x = 709;
+	var inventory_y = 750;
+	// drop logs from the inventory
+	robot.moveMouse(inventory_x, inventory_y);
+	robot.mouseClick('right');
+	robot.moveMouseSmooth(inventory_x, inventory_y + 45);
+    sleep(100);
+    robot.mouseClick();
+    sleep(400);
+
+}
+
+function findOre() {
+    var x = 266, y = 348, width = 150, height = 212;
+    var img = robot.screen.capture(x, y, width, height);
+
+	var ore_colors = ["625857", "514948", "7b6e6e", "807272", "4d4444", "857877", "7d7070", "665c5b", "4d4444", "554c4c", "453e3e", "5b5252", "413a3a", "2f2a2a", "595050", "3b3535",
+    "3d3736", "383333", "534b4a", "6f6363", "827473", "342e2e", "6a5f5f", "6c6161",
+    "605655", "2b2725", "7d7070", "796c6c", "383333", "6a5f5f", "716564", "736766", 
+	"3f351b", "493c1f", "4f4222", "5a4b26", "2d2513", "544724", "574925", 
+	"463a1d", "262010"];
+
+	for (var i = 0; i < 250; i++) {
+		var random_x = getRandomInt(0, width-1);
+		var random_y = getRandomInt(0, height-1);
+		var sample_color = img.colorAt(random_x, random_y);
+
+		if (ore_colors.includes(sample_color)) {
+            var screen_x = random_x + x;
+            var screen_y = random_y + y;
+
+            if (confirmOre(screen_x, screen_y)) {
+                console.log("found ore at: " + screen_x + ", " + screen_y + " color " + sample_color);
+                return {x: screen_x, y: screen_y};
+            } else {
+                console.log("Unconfirmed ore at: " + screen_x + ", " + screen_y + " color " + sample_color);
+            }
+
+            
+        }
+
+        console.log ("didn't find colour in our screenshot")
+		return false;
+
+    }
+	
+}
+
+function confirmOre(screen_x, screen_y) {
+    // first move the mouse to the given coordinates
+    robot.moveMouse(screen_x, screen_y);
+    // wait a moment for the help text to appear
+    sleep(300);
+
+    // now check the color of the action text
+    var check_x = 39;
+    var check_y = 35;
+    var pixel_color = robot.getPixelColor(check_x, check_y);
+
+    // returns true if the pixel color is cyan
+    return pixel_color == "00ffff";
+}
+
+main();
