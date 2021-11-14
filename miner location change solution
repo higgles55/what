@@ -58,3 +58,35 @@ function main() {
 
 }
 
+//FIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+function checkLocation() {
+
+	var map_x = 661;
+	var map_y = 148;
+    var map_color = "4f648d";
+
+    // check to confirm that map is blue 
+    var pixel_color = robot.getPixelColor(map_x, map_y);
+    console.log("map color is: " + pixel_color);
+
+	// if map color matches the expected log color (yew)
+    if (pixel_color == map_color) {
+        console.log("we here boys")}
+            
+
+        else {
+            console.log ("we gone")
+			logOut(); 
+
+            
+    }
+
+	
+
+}
+
+
+
+
+
